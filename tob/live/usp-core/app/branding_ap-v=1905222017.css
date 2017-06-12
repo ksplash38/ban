@@ -1,0 +1,21 @@
+.bluelink, .settings-add-phone-link {
+    color: #006566;
+}
+
+#settingsNavigation a, #settingsContentContainer a,
+#disclaimer a, #motdContainer a, #forgotPasswordFlow a,
+#pagecontent_id a, #msgServiceLoginPopUp a,
+#otpOverlayContent a,
+#convContainer a, #setCookiePrompt a,
+#entitlements-body a, #entitlements-body .button-link, 
+#goBackToLoginPage, #holder a, #otpContainerHomePageLink,
+.ifs-base-menu a,
+#alert-menu-container a, .contact-fi-grey a,
+#brow-compat-link-disp a {
+    color: #006566;
+}
+
+.bluelink:hover, a:hover, .settings-add-phone-link:hover {
+    outline: 1px dotted;
+}
+

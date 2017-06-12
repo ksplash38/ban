@@ -1,0 +1,22 @@
+.special3{
+    text-decoration: line-through;
+}
+
+.special2{
+    text-decoration: overline;
+}
+
+.special1{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.disclaimer{
+
+}
+
+.faqQ { color:#75100e; }
+
+.faqA { color:#003253; }
+	

@@ -1,0 +1,431 @@
+
+
+
+/* TPD */
+/* **************************************************/
+
+.modal p, .modal h1 {
+  text-align: left;
+}
+
+.modal-footer a.btn:link, 
+.modal-footer a.btn:visited, 
+.modal-footer a.btn:hover, 
+.modal-footer a.btn:active {
+  text-decoration: none;
+}
+
+.modal .btn-primary {
+  background-color: #F8981D;
+  background-image: none;
+  border-color: #357EBD;
+  color: #FFFFFF;
+}
+
+.modal .btn-secondary {
+  background-color: #087378;
+  background-image: none;
+  border-color: #357EBD;
+  color: #FFFFFF;
+}
+
+
+.modal-footer a.btn:link, 
+.modal-footer a.btn:visited, 
+.modal-footer a.btn:hover, 
+.modal-footer a.btn:active {
+  text-decoration: none;
+}
+
+.promoMain > .slides > li{
+     display:none;
+}
+
+
+/*
+** Stick nav anchor fix
+ 	.editor a[name], .anchor{
+	padding-top:130px;
+	margin-top:-130px;
+	display: block;
+}
+
+
+ * ****TCalc Fixes
+ #calccontent input{
+	margin: 0px 10px;
+}
+
+.cTimeValue input, .cTimeValue span, .cTimeValue label{
+	display: inline-block !important;
+	margin: 0px 4px !important;
+	position: initial !important;
+	padding: 0 !important;
+}
+
+/**table fix **/
+.tablecontent1, .tablecontent2, .wc_table th{width:auto;}
+
+*/
+
+/*table resizing */
+.table-responsive table {
+    width: 100%;
+  }
+@media(min-width:650px){
+  .table-responsive table {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 767px){
+.table-responsive {
+    overflow-x: scroll;
+    border:none !important;
+}
+}
+
+/*removing the M from background */
+.promoSmallWrap .innerWrap {
+    background: none !important;
+}
+
+@media (min-width: 768px){
+#home .promoSmallWrap .innerWrap {
+    width: 90%;
+}
+}
+.promoInnerBottom a.openAcct span.openAcctTxt {
+	text-align: center;
+}
+
+.quickLinksWrap li {
+	min-height: 206px !important;
+}
+
+@media (min-width: 1175px){
+.nav.nav-pills > li a, .nav > li a {
+    padding: 16px 12px;
+    font-size: 16px !important;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1174px){
+.nav.nav-pills > li a, .nav > li a {
+    font-size: 14px !important;
+}
+}
+
+#back .promoSmallWrap {
+	overflow: scroll;
+}
+
+.disclaimer .largerDisclaimer {
+  font-size: 18px;
+  text-align: center;
+}
+
+.disclaimer p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+/*fixing links displaying as block*/
+div.editor p a, div.editor li a, div.editor span a {
+  display: inline;
+}
+
+/*fixing h2, h3 spacing on mobile and quicklinks styles*/
+@media (max-width: 510px){
+  /*#home .promoSmallWrap h3 {
+   padding: 20px 0px;
+  }*/
+  #home .quickLinksWrap li a img {
+    max-width: none;
+    text-align: center;
+  }
+  #home .quickLinksWrap li a, #home .quickLinksWrap li a h4 {
+    text-align: center;
+  }
+}
+
+.disclaimer .editor a {
+  color: #bfbfbf;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: underline;
+  padding: 0px;
+}
+
+#back .content .editor a {
+  display: inline;
+}
+
+#tpwModal .modal-body {
+   max-height: calc(100vh - 240px);
+   overflow-y: auto;
+}
+
+@media (max-width 767px){
+  .modal-title h1 {
+    font-size: 20px;
+  }
+}
+
+div #tpwmodal {
+  width: 100%;
+}
+
+div.modal-content {
+  width: 96%;
+  height: auto;
+}
+
+#container
+{ 
+  width:80%;
+  padding:15px;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+#container th {
+	color: #fff;
+	background-color: #007278;
+	font-size: 14pt;
+	text-transform: uppercase;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+}
+#container .tableheader {
+	background-color: #fff;
+	color: #007278;
+	font-size: 12pt;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: left;
+}
+#container .tablesubheader {
+	color: #fff;
+	background-color: #007278;
+	font-size: 12pt;
+	font-weight: bold;
+	vertical-align: top;
+	text-align: left;
+}
+#container .tablesubheader2 {
+	color: #fff;
+	background-color: #007278;
+	font-size: 10pt;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+}
+#container .tablecontent {
+	background-color: #fff;
+	color: #666;
+	font-size: 10pt;
+	vertical-align: top;
+	text-align: left;
+}
+
+#container td.tablecontent, td.tablesubheader, td.tablesubheader2 {
+	border: solid 1px #007278;
+	border-collapse: collapse;
+}
+
+#container .darkgreyborder {
+	border-bottom: solid 1px #007278;
+}
+
+#container td {
+  padding: 5px;
+}
+
+table.privacyTable {
+  border-bottom: none;
+  border: 1px solid #007278;
+}
+
+@media (min-width: 992px){
+.navWrap .uti form.navbar-form {
+  max-width: 200px;
+	margin: 0px -15px;
+}
+}
+
+ul.nav {
+  border: none;
+}
+
+ul.uti {
+  border-top: 1px solid #f28b20;
+}
+
+@media (max-width: 991px){
+.mast .navWrap.in {
+	position: fixed;
+max-height: 100%;
+padding-bottom: 60px;
+overflow-y:scroll;
+-webkit-overflow-scrolling:touch;
+width: 100%;
+  }
+
+.mast .navWrap.in ul{
+	position: relative;
+	top: 0px;
+  }
+
+.loginOB h1 {
+    color: #f28b20;
+		text-align: center;
+  }
+
+.loginOB .loginLinks a, .loginOB form .btnOB {
+    color: #ffffff;
+    background-color: #f28b20;
+  }
+
+	.loginOB form .btnOB {
+    float: none;
+  }
+
+.loginOB .form-control {
+  margin: 0 auto;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+	.loginOB > a.loginPersonal {
+	  margin: 0 auto;
+	}
+
+	.loginOB > a.loginPersonal, .loginOB .loginLinks {
+	  display: block;
+	}
+
+	.loginOB .loginLinks {
+	  clear: both;
+	}
+
+	.loginOB {
+	  background-color: rgba(255,255,255,0.7);
+		border: 1px solid rgba(0,0,0,0.2);
+		border-radius: 5px;
+	}
+
+	ul.uti {
+		border: none;
+	}
+}
+
+.open > .dropdown-menu {
+  top: 103px;
+}
+
+div.loginOB div#mobileSubmitContainer button {
+	margin: 0;
+}
+
+#tpwModal .modal-body {
+    max-height: calc(100vh - 240px);
+    overflow-y: auto;
+}
+
+.modal-title h1 {
+	font-size: 30px;
+}
+
+.modal-body p {
+	font-size: 15px;
+}
+
+@media (max-width:600px){
+	.modal-title h1 {
+		font-size: 20px;
+	}
+
+	.modal-body p {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 767px){
+  .quickLinksWrap .innerWrap .textLeft {
+	  width: 90%;
+		max-width: 90%;
+	}
+
+	#home .greenSectionWrap .innerWrap .textLeft, #home .greenSectionWrap .innerWrap .sectionTwoList {
+	  width: 95%;
+		max-width: 95%;
+	}
+
+		#home .quickLinksWrap .innerWrap .textLeft, #home .quickLinksWrap .innerWrap .sectionTwoList {
+	  width: 90%;
+		max-width: 90%;
+	}
+
+	#home .greenSectionWrap .innerWrap .textLeft h2, .greenSectionWrap .innerWrap .textLeft h3 {
+	 padding: 10px 20px; 
+	}
+}
+
+@media (min-width: 768px){
+.greenSectionWrap .textLeft {
+  margin-right: 2%;
+ max-width: 45%;
+}
+
+.greenSectionWrap .sectionTwoList {
+  margin-left: 2%;
+ max-width: 45%;
+}
+
+#home div.promoSmallWrap div.innerWrap div.sectionTwoList ul li a {
+  text-align: left;
+}
+
+#home .promoSmallWrap .innerWrap {
+  text-align:center;
+  
+}
+
+#home .promoSmallWrap .innerWrap {
+  text-align:center;
+}
+
+
+
+/*.promoMain .promoInnerBottom {
+  height: auto;
+max-height: 100%;
+}*/
+}
+
+@media (min-width:992px) {
+  .mastWrap .innerWrap .mast #pNav ul.uti {
+	  clear: both;
+	}
+}
+
+@media (min-width: 1326px) and (max-width: 1500px){
+#home .quickLinksWrap ul {
+    max-width: 67%;
+    margin-left: 1%;
+}
+#home .quickLinksWrap .textLeft {
+    max-width: 31%;
+}
+}
+
+/*#back .promoWrap .promoInnerBottom {
+  height: auto;
+}*/
+
+#back .promoWrap .promoInnerBottom h3 {
+  padding: 15px 6%;
+}
+#back .promoWrap .promoInnerBottom {
+  height: auto;
+}

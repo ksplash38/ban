@@ -1,0 +1,1 @@
+window.onbeforeunload=function(b){var a=ifs.env.context;b=b||window.event;if(b){Ext.Ajax.request({url:a+"/app/home/clearSessionFromCache",async:false,method:"GET",success:function(c,d){},failure:function(c,d){}})}};

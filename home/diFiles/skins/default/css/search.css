@@ -1,0 +1,121 @@
+.searchResults blockquote {
+	left: 0;
+	padding-left: 0;
+}
+
+.searchResults blockquote:before {
+	content: '';
+	left: 0;
+}
+
+.searchResults table {
+	box-shadow: none
+}
+
+
+
+#options{
+
+}
+#resultstd{
+
+}
+#mainresults tr{;
+border-bottom: 1px solid black;
+}
+#mainresults{
+border: 1px solid black;
+}
+.text  { 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt; font-weight:normal;
+	color:#000000 
+}
+.appfield1  { 
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000000; background-color:#FFFFFF;
+	border:1px solid #146559;
+	width:130px;
+}
+.seperator  { color:Maroon }
+.resultsheader  { 
+	font-size:8pt; font-weight:bold;
+	color:#5C3354
+}
+.footer  { text-align:center }
+.footernav  { 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8pt; font-weight:normal;
+	color:#333333; text-decoration:underline 
+} 
+
+a.footernav:link  { 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8pt; font-weight:normal;
+	color:#333333; text-decoration:underline 
+} 
+
+a.footernav:active  { 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8pt; font-weight:normal;
+	color:#333333; text-decoration:none 
+} 
+
+a.footernav:hover  { 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8pt; font-weight:normal;
+	color:#333333; text-decoration:none 
+} 
+
+a.footernav:visited  { 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8pt; font-weight:normal;
+	color:#333333; text-decoration:underline 
+}
+.tableheader  { 
+	font-size:9pt; font-weight:bold;
+	color:#FFFFFF; background-color:#5C3354;
+	text-align:center 
+}
+
+.tableheader  a{ 
+	font-size:9pt; font-weight:bold;
+	color:#FFFFFF; background-color:#5C3354;
+	text-align:center 
+}
+
+.scoreheader  { font-style:italic }
+.titleheader  { 
+	text-decoration:underline 
+}
+.dateheader  { font-style:oblique }
+/* .tablecontent1  { 
+	font-size: 8pt;
+              font-weight: 400;
+              color: #333333;
+              background-color: #FFFFFF;
+}
+.tablecontent2  { 
+	font-size:8pt; font-weight:400; color:#333333;
+	background-color:#F0EBEF 
+} */
+.score  { 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8pt; font-weight:normal;
+	font-style:italic 
+}
+.title  { 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9pt; font-weight:normal;
+	text-decoration:underline 
+}
+.date  { 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9pt; font-weight:normal;
+	font-style:oblique 
+}
+.summary  { 
+	font-size:8pt; 
+	font-weight:normal;
+	font-style:italic 
+}
